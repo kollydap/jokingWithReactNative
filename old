@@ -1,0 +1,51 @@
+// import { TailwindProvider } from "tailwindcss-react-native";
+// import { NavigationContainer } from "@react-navigation/native";
+// import { createNativeStackNavigator } from "@react-navigation/native-stack";
+// import HomeScreen from "./screens/HomeScreen";
+// const Stack = createNativeStackNavigator();
+// export default function App() {
+//   return (
+//     <NavigationContainer>
+//       <TailwindProvider>
+//         <Stack.Navigator>
+//           <Stack.Screen name="Home" component={HomeScreen} />
+//         </Stack.Navigator>
+//       </TailwindProvider>
+//     </NavigationContainer>
+//   );
+// }
+
+// import { StatusBar } from 'expo-status-bar';
+// import React from 'react';
+// import { Text, View } from 'react-native';
+
+// export default function App() {
+//   return (
+// <View className="flex-1 items-center justify-center bg-white">
+//       <Text>Open up App.js to start working on your app!</Text>
+//       <StatusBar style="auto" />
+//     </View>
+//   );
+// }
+
+// import React from 'react';
+// import { withExpoSnack } from 'nativewind';
+
+// import { Text, View } from 'react-native';
+// import { styled } from 'nativewind';
+
+// const StyledView = styled(View)
+// const StyledText = styled(Text)
+
+// const App = () => {
+//   return (
+//     <StyledView className="flex-1 items-center justify-center">
+//       <StyledText className="text-slate-800">Try editing me! 🎉</StyledText>
+//     </StyledView>
+//   );
+// }
+
+// // This demo is using a external compiler that will only work in Expo Snacks.
+// // You may see flashes of unstyled content, this will not occur under normal use!
+// // Please see the documentation to setup your application
+// export default withExpoSnack(App);
